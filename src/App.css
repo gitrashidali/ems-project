@@ -1,0 +1,15 @@
+/* Ensure content not hidden under fixed navbar */
+.app-shell {
+  padding-top: 72px;
+}
+
+/* Section headers */
+.section-title {
+  font-size: clamp(20px, 2vw, 28px);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  margin: 8px 0 14px;
+}
+.subtitle {
+  color: var(--muted);
+}
